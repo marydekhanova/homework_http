@@ -18,7 +18,6 @@ class Question():
 
 
 site = 'stackoverflow'
-tags = ['python']
 question_py = Question(site)
 question_py.tags = ['python']
 questions_py = question_py.get_timeinterval(2)
